@@ -1,0 +1,16 @@
+</style>
+</head>
+<body>
+    <h1>猜拳遊戲</h1>
+    <div id="options">
+        <div class="option" onclick="playGame('rock')">
+            <img src="https://emojicdn.elk.sh/👊" alt="Rock">
+        </div>
+        <div class="option" onclick="playGame('paper')">
+            <img src="https://emojicdn.elk.sh/✋" alt="Paper">
+        </div>
+        <div class="option" onclick="playGame('scissors')">
+            <img src="https://emojicdn.elk.sh/✌️" alt="Scissors">
+        </div>
+    </div>
+    <div id="result"></div>
